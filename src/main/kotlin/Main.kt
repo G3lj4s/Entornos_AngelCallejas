@@ -17,6 +17,7 @@ fun main(args: Array<String>) {
     var c: Int = 0
 
     while (f < m.size){
+
         while (c < m[0].size){
             sumaFilas[f] += m[f][c]
             c++
@@ -25,7 +26,7 @@ fun main(args: Array<String>) {
         f++
     }
 
-    sumar2(m,sumaColum)
+    sumaColumnas(m,sumaColum)
     println("La suma de las filas es")
     println(Arrays.toString(sumaFilas))
     println("La suma de las columnas es")
@@ -34,11 +35,7 @@ fun main(args: Array<String>) {
 
 }
 
-
-
-
-
-fun sumar2 (m:Array<Array<Int>>, sumaColumnas:Array<Int>){
+fun sumaColumnas (m:Array<Array<Int>>, sumaColumnas:Array<Int>){
     var f: Int = 0
     var c: Int = 0
 
