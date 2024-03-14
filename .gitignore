@@ -27,3 +27,5 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+### impide que se guarde la carpeta con mi nombre
+./Angel
